@@ -1,0 +1,11 @@
+{
+  "name": "achados-impecaveis",
+  "version": "1.0.0",
+  "description": "Site do Achados Impecáveis da Nathi — build estático, sem dependências.",
+  "scripts": {
+    "build": "node build.js",
+    "start": "node server.js",
+    "preview": "node build.js && node server.js"
+  },
+  "license": "UNLICENSED"
+}
